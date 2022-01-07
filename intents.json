@@ -1,0 +1,38 @@
+
+{"intents": [
+        {"tag": "greeting",
+        "patterns":["Hi", "How are you","Hello", "What's Up?", "Good day", "Hey", "How's it going?"],
+        "responses": ["Hello I am VAL! Your Virtual Assistant! What can I do for you?"],
+        "context_set": ""
+      },
+      {"tag": "stocks",
+      "patterns": ["What are my stocks doing?", "How are my finances?","How are my investments?","How are my stocks?", "Show my stocks", "Show me my investments", "How is the stock market?"],
+      "responses":["Showing Investments"],
+      "context_set": ""
+    },
+
+    {"tag":"todoshow",
+    "patterns": ["Show me my todo list", "What is my todo list?", "What does my day look like?"],
+    "responses": ["Showing ToDo List"],
+    "context_set": ""
+  },
+
+  {"tag": "todoadd",
+    "patterns": ["Add something to my todo list", "I need to add a task"],
+    "responses": ["Adding to ToDo List"],
+    "context_set": ""
+  },
+  {"tag": "todoremove",
+  "patterns": ["Remove a task", "Remove an item from my todo list"],
+  "responses": ["Removing from Todo List"],
+  "context_set": ""
+},
+
+    {"tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "Exit", "I have to go now", "See ya", "Later", "Peace Out VAL", "Have a nice day VAL"],
+      "responses":["Goodbye"],
+      "context_set": ""
+
+    }
+
+        ]}
